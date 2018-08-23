@@ -1,0 +1,10 @@
+name: MarauderWC
+version: ${project.version}
+main: dev.eidilla.marauderwc.MarauderWC
+authors: [Eidilla]
+description: Marauder - Wizard Cards Plugin for Zatcast 2.0
+
+commands:
+  zwc:
+    description: Parent Command for ZetCast's Wizard Cards Plugin, input arguments (/zwc givecard, giverandomcard, givepack, trade, dropparty)
+    usage: /zwc
